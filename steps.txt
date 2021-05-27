@@ -1,0 +1,8 @@
+npx create-react-app .
+npm i bootstrap
+
+git init
+git add .
+git commit -m "msg"
+git remote add origin ""
+git push -u origin master
