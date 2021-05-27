@@ -6,3 +6,7 @@ git add .
 git commit -m "msg"
 git remote add origin ""
 git push -u origin master
+
+Adding css
+
+npm -i --save @fortawesome/fontawesome-svg-core
