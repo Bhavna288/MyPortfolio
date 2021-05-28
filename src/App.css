@@ -172,3 +172,47 @@ nav ul li {
     display: none;
   }
 }
+
+/************************** ABOUT SECTION *********************************/
+.about-wrapper {
+  padding: 3rem;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/*------------ My IMAGE ----------------*/
+.image-wrapper {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 18rem;
+}
+
+@media(min-width: 768px) {
+  .image-wrapper {
+   padding-left: 8rem !important;
+  }
+}
+
+.my-image {
+  max-width: 18rem;
+  height: 18rem;
+  font-family: "Roboto Condensed", sans-serif;
+  border-radius: 50%;
+  padding: 0.2rem;
+  border: 0.02rem solid var(--primary-pink);
+}
+
+/*------------ ABOUT HEADING ------------*/
+.about-heading {
+  color: var(--primary-purple);
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+/******************************* PROJECTS *******************************/
+.projects-wrapper {
+  padding: 3rem 6rem;
+}
+
