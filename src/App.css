@@ -5,6 +5,7 @@
   --primary-pink: #D83570;
   --primary-dark: rgba(255,255,255,0);
   --primary-purple: #781EA8;
+  --primary-gray: #eeeeee;
 }
 
 body {
@@ -80,7 +81,7 @@ nav ul li {
 .navbar-brand {
   max-width: 17.25rem;
   padding: 0 !important;
-  height: 6rem !important;
+  height: 4.5rem !important;
 }
 
 @media(max-width: 768px) {
@@ -103,7 +104,7 @@ nav ul li {
   background: url('background.jpg') no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -187,6 +188,7 @@ nav ul li {
   justify-content: center;
   align-items: center;
   width: 18rem;
+  padding: 2rem 0.2rem 0.2rem 0.2rem;
 }
 
 @media(min-width: 768px) {
@@ -196,8 +198,8 @@ nav ul li {
 }
 
 .my-image {
-  max-width: 18rem;
-  height: 18rem;
+  max-width: 22rem;
+  height: 22rem;
   font-family: "Roboto Condensed", sans-serif;
   border-radius: 50%;
   padding: 0.2rem;
@@ -213,6 +215,50 @@ nav ul li {
 
 /******************************* PROJECTS *******************************/
 .projects-wrapper {
-  padding: 3rem 6rem;
+  text-align: center;
+  padding: 3rem 8rem;
+  background-color: var(--primary-gray);
+  font-family: "Roboto Condensed", sans-serif;
 }
 
+@media(max-width: 768px) {
+  .projects-wrapper {
+    padding: 2rem;
+  }
+}
+
+.projects-wrapper .col-lg-3, .projects-wrapper .col-md-6, .projects-wrapper .col-sm-12 {
+  margin-bottom: 2rem;
+}
+
+/*--------------------- PROJECT HEADING --------------------*/
+.projects-head {
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  margin: 1rem 0 3rem 0;
+}
+
+.project {
+  border-bottom: 0.2rem solid var(--primary-pink);
+  margin: 1rem;
+  padding: 1rem;
+  height: 100%;
+  background-color: var(--primary-white);
+  text-align: center;
+  transition: all .2s ease-in-out;
+}
+
+.project .proj-title {
+  font-size: 1.6rem;
+}
+
+.project .proj-info {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.project:hover {
+  background-color: var(--primary-pink);
+  color: var(--primary-white);
+  transform: scale(1.05);
+}
