@@ -10,3 +10,9 @@ git push -u origin master
 Adding css
 
 npm -i --save @fortawesome/fontawesome-svg-core
+
+// Add library react-typed
+npm install react-typed --save
+
+// Add particles
+npm install react-particles-js
