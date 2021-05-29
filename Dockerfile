@@ -7,3 +7,5 @@ RUN npm install
 RUN npm install bootstrap
 COPY . ./
 RUN npm run build
+
+EXPOSE 3000
