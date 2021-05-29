@@ -30,7 +30,7 @@ const Projects = () => {
                 <div className="col-lg-3 col-md-6 col-sm-12">
                     <div className="project">
                         <div className="proj-logo">
-                            <img alt="" src={ skinCancer } />
+                            <img alt="sc" src={ skinCancer } />
                         </div>
                         <div className="proj-title">
                             Dermature
@@ -46,7 +46,7 @@ const Projects = () => {
                 <div className="col-lg-3 col-md-6 col-sm-12">
                     <div className="project">
                         <div className="proj-logo">
-                            <img alt="" src={ foodLauncher } />
+                            <img alt="fl" src={ foodLauncher } />
                         </div>
                         <div className="proj-title">
                             FoodLauncher
@@ -62,7 +62,7 @@ const Projects = () => {
                 <div className="col-lg-3 col-md-6 col-sm-12">
                     <div className="project">
                         <div className="proj-logo">
-                            <img alt="" src={ printOnline } />
+                            <img alt="pl" src={ printOnline } />
                         </div>
                         <div className="proj-title">
                             PrintOnline
