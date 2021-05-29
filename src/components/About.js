@@ -13,16 +13,16 @@ const About = () => {
             <div className="row">
                 <div className="col-lg-6 col-sm-12 image-wrapper">
                     <img src={ myImage } className="my-image" alt="Bhavna Tahelyani"></img><br />
-                    <a href="https://www.linkedin.com/in/bhavna-tahelyani/" className="social-link">
+                    <a href="https://www.linkedin.com/in/bhavna-tahelyani/" className="social-link" target="_blank">
                         <FontAwesomeIcon icon={ faLinkedin } />
                     </a>
-                    <a href="https://github.com/Bhavna288" className="social-link">
+                    <a href="https://github.com/Bhavna288" className="social-link" target="_blank">
                         <FontAwesomeIcon icon={ faGithub } />
                     </a>
-                    <a href="https://twitter.com/bhavnatahelyani" className="social-link">
+                    <a href="https://twitter.com/bhavnatahelyani" className="social-link" target="_blank">
                         <FontAwesomeIcon icon={ faTwitter } />
                     </a>
-                    <a href="mailto:tahelyanibhavna288@gmail.com" className="social-link">
+                    <a href="mailto:tahelyanibhavna288@gmail.com" className="social-link" target="_blank">
                         <FontAwesomeIcon icon={ faEnvelope } />
                     </a>
                 </div>
