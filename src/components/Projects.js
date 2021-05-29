@@ -20,7 +20,7 @@ const Projects = () => {
                             Down To Meet
                         </div>
                         <div className="proj-info">
-                            The website provides users to browse, create, and promote local events. It provides a platform for building a community for the upliftment of its members whether they be in a personal or professional context.
+                            This website provides users to browse, create, and promote local events. It provides a platform for building a community for the upliftment of its members whether they be in a personal or professional context.
                         </div>
                         <div className="view-proj">
                             <a href="https://github.com/Bhavna288/DownToMeet-MERN">Github</a>
