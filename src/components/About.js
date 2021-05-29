@@ -1,12 +1,30 @@
 import React from 'react'
 import myImage from "../Me.jpg"
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+
 const About = () => {
     return (
         <div className="about-wrapper" id="about">
             <div className="row">
                 <div className="col-lg-6 col-sm-12 image-wrapper">
-                    <img src={ myImage } className="my-image" alt="Bhavna Tahelyani"></img>
+                    <img src={ myImage } className="my-image" alt="Bhavna Tahelyani"></img><br />
+                    <a href="https://www.linkedin.com/in/bhavna-tahelyani/" className="social-link">
+                        <FontAwesomeIcon icon={ faLinkedin } />
+                    </a>
+                    <a href="https://github.com/Bhavna288" className="social-link">
+                        <FontAwesomeIcon icon={ faGithub } />
+                    </a>
+                    <a href="https://twitter.com/bhavnatahelyani" className="social-link">
+                        <FontAwesomeIcon icon={ faTwitter } />
+                    </a>
+                    <a href="mailto:tahelyanibhavna288@gmail.com" className="social-link">
+                        <FontAwesomeIcon icon={ faEnvelope } />
+                    </a>
                 </div>
                 <div className="col-lg-6 col-sm-12">
                     <h3 className="about-heading">About Me</h3>

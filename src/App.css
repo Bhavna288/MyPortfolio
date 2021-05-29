@@ -100,7 +100,6 @@ nav ul li {
 
 /*********************** HEADER ******************************/
 .header-wrapper {
-  position: relative;
   background: url('background.jpg') no-repeat;
   background-size: cover;
   background-position: center;
@@ -109,11 +108,8 @@ nav ul li {
 
 .main-info {
   display: flex;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  margin: auto;
+  padding-top: 2rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -125,6 +121,7 @@ nav ul li {
 .main-info h1 {
   color: var(--primary-white);
   text-transform: uppercase;
+  font-size: 3rem;
 }
 
 /*---------------- TYPED-TEXT --------------------*/
@@ -191,6 +188,16 @@ nav ul li {
   padding: 2rem 0.2rem 0.2rem 0.2rem;
 }
 
+.image-wrapper a {
+  color: var(--primary-purple);
+}
+
+.social-link {
+  margin: 1rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
 @media(min-width: 768px) {
   .image-wrapper {
    padding-left: 8rem !important;
@@ -204,6 +211,7 @@ nav ul li {
   border-radius: 50%;
   padding: 0.2rem;
   border: 0.02rem solid var(--primary-pink);
+  margin-bottom: 3rem;
 }
 
 /*------------ ABOUT HEADING ------------*/
@@ -216,7 +224,9 @@ nav ul li {
 /******************************* PROJECTS *******************************/
 .projects-wrapper {
   text-align: center;
-  padding: 3rem 8rem;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 7rem;
   background-color: var(--primary-gray);
   font-family: "Roboto Condensed", sans-serif;
 }
@@ -238,6 +248,20 @@ nav ul li {
   margin: 1rem 0 3rem 0;
 }
 
+.proj-logo {
+  font-size: 4rem;
+  margin: auto;
+  width: 5rem;
+  border-radius: 50%;
+}
+
+.proj-logo img {
+  max-width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+
 .project {
   border-bottom: 0.2rem solid var(--primary-pink);
   margin: 1rem;
@@ -245,7 +269,10 @@ nav ul li {
   height: 100%;
   background-color: var(--primary-white);
   text-align: center;
+  align-items: center;
+  justify-content: center;
   transition: all .2s ease-in-out;
+  position: relative;
 }
 
 .project .proj-title {
@@ -255,10 +282,33 @@ nav ul li {
 .project .proj-info {
   margin-top: 0.5rem;
   font-size: 0.9rem;
+  min-height: 10.5rem;
+}
+
+.view-proj {
+  margin-top: 2rem;
+}
+
+.view-proj a{
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.3rem;
+  color: var(--primary-purple);
+  border: 0.02rem solid var(--primary-purple);
+  border-radius: 0.2rem;
+  font-weight: 600;
+}
+
+.view-proj a:hover {
+  color: var(--primary-purple);
 }
 
 .project:hover {
   background-color: var(--primary-pink);
   color: var(--primary-white);
   transform: scale(1.05);
+}
+
+.project:hover .view-proj a{
+  background-color: var(--primary-white); 
 }

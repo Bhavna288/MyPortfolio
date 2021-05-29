@@ -1,5 +1,6 @@
 import React from 'react';
 import Typed from 'react-typed'
+import resume from '../Bhavna_Tahelyani_ML.pdf';
 
 const Header = () => {
     return (
@@ -9,12 +10,12 @@ const Header = () => {
                 <h1>Bhavna Tahelyani</h1>
                 <Typed
                     className="typed-text"
-                    strings={ ["Web Developer", "Machine Learning", "Android Developer"] }
+                    strings={ ["MERN Developer", "Machine Learning", "Android Developer", "Flask Developer"] }
                     typeSpeed={ 40 }
                     backSpeed={ 60 }
                     loop
                 />
-                <a href="#" className="btn-main">About Me</a>
+                <a href={ resume } className="btn-main" download>Download Resume</a>
             </div>
         </div>
     )
